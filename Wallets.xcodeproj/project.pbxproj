@@ -17,6 +17,8 @@
 		122A99C42799D15E005D7602 /* WalletsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A99C32799D15E005D7602 /* WalletsTests.swift */; };
 		122A99CE2799D15E005D7602 /* WalletsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A99CD2799D15E005D7602 /* WalletsUITests.swift */; };
 		122A99D02799D15E005D7602 /* WalletsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122A99CF2799D15E005D7602 /* WalletsUITestsLaunchTests.swift */; };
+		12A87C06279BF3CF00343D4B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A87C05279BF3CF00343D4B /* Fonts.swift */; };
+		12A87C09279BF50200343D4B /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A87C08279BF50200343D4B /* Montserrat-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		122A99C92799D15E005D7602 /* WalletsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		122A99CD2799D15E005D7602 /* WalletsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsUITests.swift; sourceTree = "<group>"; };
 		122A99CF2799D15E005D7602 /* WalletsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12A87C05279BF3CF00343D4B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		12A87C08279BF50200343D4B /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		122A99A82799D158005D7602 /* Wallets */ = {
 			isa = PBXGroup;
 			children = (
+				12A87C02279BF31500343D4B /* Font */,
 				122A99A92799D158005D7602 /* AppDelegate.swift */,
 				122A99AB2799D158005D7602 /* SceneDelegate.swift */,
 				122A99AD2799D158005D7602 /* ViewController.swift */,
@@ -128,6 +133,23 @@
 				122A99CF2799D15E005D7602 /* WalletsUITestsLaunchTests.swift */,
 			);
 			path = WalletsUITests;
+			sourceTree = "<group>";
+		};
+		12A87C02279BF31500343D4B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				12A87C07279BF4C700343D4B /* FontsFamily */,
+				12A87C05279BF3CF00343D4B /* Fonts.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		12A87C07279BF4C700343D4B /* FontsFamily */ = {
+			isa = PBXGroup;
+			children = (
+				12A87C08279BF50200343D4B /* Montserrat-SemiBold.ttf */,
+			);
+			path = FontsFamily;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +258,7 @@
 			files = (
 				122A99B92799D15D005D7602 /* LaunchScreen.storyboard in Resources */,
 				122A99B62799D15D005D7602 /* Assets.xcassets in Resources */,
+				12A87C09279BF50200343D4B /* Montserrat-SemiBold.ttf in Resources */,
 				122A99B12799D158005D7602 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +287,7 @@
 				122A99B42799D158005D7602 /* Wallets.xcdatamodeld in Sources */,
 				122A99AE2799D158005D7602 /* ViewController.swift in Sources */,
 				122A99AA2799D158005D7602 /* AppDelegate.swift in Sources */,
+				12A87C06279BF3CF00343D4B /* Fonts.swift in Sources */,
 				122A99AC2799D158005D7602 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
